@@ -1,0 +1,18 @@
+.wrapper-fluid {
+  position: absolute;
+  top:40px;
+  width: 100%;
+  z-index:1001;
+  #main-menu {
+    .menu-item {
+      border-bottom:2px solid transparent;
+      -webkit-transition: 0.6s; /* Safari */
+      transition: 0.6s;
+      &:hover {
+        border-bottom: 2px solid green;
+        -webkit-transition: 0.6s; /* Safari */
+        transition: 0.6s;
+      }
+    }
+  }
+}
